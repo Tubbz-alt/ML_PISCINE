@@ -8,3 +8,5 @@ Requires installing GNU Parallel for projects requiring use of sox: sudo apt ins
 Python version: 3.6.6, full conda environment is available for cloning from environment.yml
 
 To recreate conda environment: conda env create -f environment.yml
+
+Conda version: 4.5.11
