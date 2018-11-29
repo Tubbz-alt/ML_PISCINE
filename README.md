@@ -5,6 +5,8 @@ Tested on GCP instance with 1 x NVIDIA Tesla K80 GPU, 6 vCPUs and 39 GB memory, 
 
 Requires installing GNU Parallel for projects requiring use of sox: sudo apt install parallel
 
+Requires installing unzip for some projects: sudo apt-get install unzip
+
 Requires opening ports: 6006 (Tensorboard), 8888-8889 (Jupyter), 80 (http), 443 (https)
 
 Python version: 3.6.6, full conda environment is available for cloning from environment.yml
