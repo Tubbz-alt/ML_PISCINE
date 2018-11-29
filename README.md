@@ -25,6 +25,7 @@ $ tensorboard --logdir replace_with_working_dir_from_jupyter
 ```
 
 * go to http://ip.of.your.instance:6006, wait until tensorboard saves summary steps and refresh the browser
+* type "accuracy" in Tensorboard search field on top to display both training and validation accuracies side by side
 
 
 ## tmux
