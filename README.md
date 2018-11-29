@@ -29,7 +29,7 @@ $ tensorboard --logdir replace_with_working_dir_from_jupyter
 
 ## tmux
 
-It is very helpful to use tmux to split terminal screen in 3 panes and run jupyter in one pane, tensorboard in second and have the third one for bash commands when you need it.
+It is very helpful to use tmux to split SSH terminal screen in 3 panes and run jupyter in one pane, tensorboard in second and have the third one for bash commands when you need it.
 
 Optional bash actions:
 ```sh
