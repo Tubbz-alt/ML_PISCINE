@@ -43,6 +43,7 @@ tensorboard --logdir replace_with_working_dir_from_jupyter
 #### 42 Subvocalization final project
 
 * Data should be in ./data/subvocalization/
+* Data prep bash scripts should be run from ./data/subvocalization/
 
 
 ## tmux
