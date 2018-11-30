@@ -49,4 +49,18 @@ Restore running tmux window, if you detach from tmux screen or close ssh window:
 ```sh
 tmux a #
 ```
+### Projects:
 
+#### Kaggle MNIST
+
+#### Kaggle Housing Price Prediction
+
+#### Kaggle Titanic
+
+#### Kaggle Airbus Ship Detection
+
+#### Kaggle Tensorflow Speech Recognition
+
+#### 42 Subvocalization final project
+
+* Data should be in ./data/subvocalization/
