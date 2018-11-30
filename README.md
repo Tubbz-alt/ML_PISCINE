@@ -28,6 +28,23 @@ tensorboard --logdir replace_with_working_dir_from_jupyter
 * type "accuracy" in Tensorboard search field on top to display both training and validation accuracies side by side
 
 
+### Projects:
+
+#### Kaggle MNIST
+
+#### Kaggle Housing Price Prediction
+
+#### Kaggle Titanic
+
+#### Kaggle Airbus Ship Detection
+
+#### Kaggle Tensorflow Speech Recognition
+
+#### 42 Subvocalization final project
+
+* Data should be in ./data/subvocalization/
+
+
 ## tmux
 
 It is very helpful to use tmux to split SSH terminal screen in 3 panes and run jupyter in one pane, tensorboard in second and have the third one for bash commands when you need it.
@@ -49,18 +66,3 @@ Restore running tmux window, if you detach from tmux screen or close ssh window:
 ```sh
 tmux a #
 ```
-### Projects:
-
-#### Kaggle MNIST
-
-#### Kaggle Housing Price Prediction
-
-#### Kaggle Titanic
-
-#### Kaggle Airbus Ship Detection
-
-#### Kaggle Tensorflow Speech Recognition
-
-#### 42 Subvocalization final project
-
-* Data should be in ./data/subvocalization/
