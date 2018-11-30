@@ -10,18 +10,18 @@ Conda version: 4.5.11
 
 Required bash actions:
 ```sh
-$ sudo apt install parallel
-$ sudo apt install unzip
-$ conda env create -f environment.yml
-$ source activate 42
-$ jupyter notebook --ip=0.0.0.0
+sudo apt install parallel
+sudo apt install unzip
+conda env create -f environment.yml
+source activate 42
+jupyter notebook --ip=0.0.0.0
 ```
 
 To track custom estimator's behavior:
 
 ```sh
-$ source activate 42
-$ tensorboard --logdir replace_with_working_dir_from_jupyter
+source activate 42
+tensorboard --logdir replace_with_working_dir_from_jupyter
 ```
 
 * go to http://ip.of.your.instance:6006, wait until tensorboard saves summary steps and refresh the browser
@@ -34,8 +34,8 @@ It is very helpful to use tmux to split SSH terminal screen in 3 panes and run j
 
 Optional bash actions:
 ```sh
-$ sudo apt install tmux
-$ tmux
+sudo apt install tmux
+tmux
 ```
 
 #### tmux commands:
@@ -47,6 +47,6 @@ $ tmux
 
 Restore running tmux window, if you detach from tmux screen or close ssh window:
 ```sh
-$ tmux a #
+tmux a #
 ```
 
