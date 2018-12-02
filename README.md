@@ -6,7 +6,7 @@ Requires opening ports: 6006 (Tensorboard), 8888-8889 (Jupyter), 80 (http), 443 
 
 Python version: 3.6.6, full conda environment is available for cloning from environment.yml
 
-Conda version: 4.5.11
+Conda version: 4.5.11, available from https://conda.io/miniconda.html
 
 Required bash actions:
 ```sh
